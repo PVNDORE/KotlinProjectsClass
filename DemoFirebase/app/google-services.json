@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "801416458458",
+    "project_id": "demofirebase-a00f5",
+    "storage_bucket": "demofirebase-a00f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801416458458:android:5d92fdad363d7e943835e3",
+        "android_client_info": {
+          "package_name": "fr.eni.mmoisan.demofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801416458458-hnrv7eqho40emct7c0cg62q6cgs8v7ue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjs6AoejjY3kWj8keLlCSmsTWyHFlZ73k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801416458458-hnrv7eqho40emct7c0cg62q6cgs8v7ue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

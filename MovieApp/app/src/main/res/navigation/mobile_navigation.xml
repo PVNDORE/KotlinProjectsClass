@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="fr.eni.mmoisan.movieapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_apiFragment"
+            app:destination="@id/apiFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_add"
+        android:name="fr.eni.mmoisan.movieapp.ui.add.AddMovieFragment"
+        android:label="ADD"
+        tools:layout="@layout/fragment_add_movie" />
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="fr.eni.mmoisan.movieapp.ui.list.ListMovieFragment"
+        android:label="LIST"
+        tools:layout="@layout/fragment_list_movie" />
+    <fragment
+        android:id="@+id/apiFragment"
+        android:name="fr.eni.mmoisan.movieapp.ui.api.ApiFragment"
+        android:label="fragment_api"
+        tools:layout="@layout/fragment_api" />
+</navigation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="fr.eni.mmoisan.colorme.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_randomWord"
+            app:destination="@id/randomWord" />
+    </fragment>
+    <fragment
+        android:id="@+id/randomWord"
+        android:name="fr.eni.mmoisan.colorme.RandomWord"
+        android:label="fragment_random_word"
+        tools:layout="@layout/fragment_random_word" >
+        <action
+            android:id="@+id/action_randomWord_to_orange"
+            app:destination="@id/orange" />
+        <action
+            android:id="@+id/action_randomWord_to_blue"
+            app:destination="@id/blue" />
+    </fragment>
+    <fragment
+        android:id="@+id/orange"
+        android:name="fr.eni.mmoisan.colorme.Orange"
+        android:label="fragment_orange"
+        tools:layout="@layout/fragment_orange" />
+    <fragment
+        android:id="@+id/blue"
+        android:name="fr.eni.mmoisan.colorme.Blue"
+        android:label="fragment_blue"
+        tools:layout="@layout/fragment_blue" />
+</navigation>
